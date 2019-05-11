@@ -1,0 +1,59 @@
+body{
+	background-color: #404040;
+	font-family: comic sans ms, sans-serif;
+}
+
+span{
+	font-size: 40px;
+	color: #cc0000;
+}
+
+#buton{
+	background-color: darkred;
+	color: white;
+	width: 30%;
+	height: 35px;
+	border: 2px solid;
+	border-color: black;
+	font-family: comic sans ms, sans-serif;
+}
+
+#cadastro{
+	position: relative;
+	top: 130px;
+	padding: 30px;
+	width: 55%;
+	height: 100%;
+	border-radius: 15px;
+	font-size: 20px;
+	color: white;
+	background-color: #262626;
+	box-shadow: 5px 5px 5px black;
+}
+
+.pao{
+	width: 60%;
+	height: 30px; 
+	background-color:  #b30000;
+	border-radius: 10px;
+	border-color: black;
+	font-size: 18px;
+	color: white;
+}
+
+input:focus{
+	outline: none;
+	border-left: grey; 
+	border-top: grey;
+	background:darkred;
+	transition:0.3s;
+}
+
+input:hover{
+	background:darkred;
+	border-radius-right: yellow;
+	border-radius-bottom: yellow;
+	transition:0.3s; 
+}
+
+
